@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html --out-dir ./public",
+    "open": "parcel index.html --open --out-dir ./public",
+    "build": "parcel build index.html --out-dir ./public --public-url ./public"
   },
   "keywords": [],
   "author": "",
